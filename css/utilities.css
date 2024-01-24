@@ -1,0 +1,38 @@
+/* flex box for  */
+
+.flex {
+    display: flex;
+}
+
+/* vertical center */
+.item-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.btn{
+ padding: 0.8rem 2rem;
+ font-size: 1rem;
+ font-weight: 600;
+ cursor: pointer;
+text-transform: uppercase;
+transition: all .3 ease;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+
+}
+.btn-secondary:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
